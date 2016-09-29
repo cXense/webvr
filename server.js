@@ -1,6 +1,7 @@
 // Dependencies
 var express = require('express'),
     bodyParser = require('body-parser'),
+    http = require('http'),
     request = require('request');
 require('console-stamp')(console, 'yyyy.mm.dd HH:MM:ss');
 
